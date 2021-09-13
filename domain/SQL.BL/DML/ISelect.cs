@@ -4,7 +4,7 @@ using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
 
-namespace Sql.DML
+namespace Sql.BL.DML
 {
    public interface ISelect
     {

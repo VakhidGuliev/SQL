@@ -4,10 +4,12 @@ using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
 
-namespace Sql.DCL
+namespace Sql.BL
 {
-   public interface IGrant
+   public abstract  class Table
     {
-        void GRANT(User user);
+         public int Id { get; }
+         public string Name { get; }
+        
     }
 }

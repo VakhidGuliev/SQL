@@ -4,11 +4,10 @@ using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
 
-namespace Sql
+namespace Sql.BL.DCL
 {
-public class User
+   public interface IGrant
     {
-        public  int Id { get; }
-        public  string Name { get; }
+        void GRANT(User user);
     }
 }

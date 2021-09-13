@@ -4,9 +4,11 @@ using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
 
-namespace Sql.Providers
+namespace Sql.BL
 {
-   public class  Oracle:Item
+public class User
     {
+        public  int Id { get; }
+        public  string Name { get; }
     }
 }

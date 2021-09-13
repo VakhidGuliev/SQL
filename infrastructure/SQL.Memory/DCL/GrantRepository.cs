@@ -4,7 +4,9 @@ using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
 using Sql;
-using Sql.DCL;
+using Sql.BL;
+using Sql.BL.DCL;
+
 namespace SQL.Memory.DCL
 {
     class GrantRepository : IGrant

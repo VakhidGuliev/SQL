@@ -4,12 +4,10 @@ using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
 
-namespace Sql
+namespace Sql.BL.DDL
 {
-   public abstract  class Table
+    public interface ICreateRepository
     {
-         public int Id { get; }
-         public string Name { get; }
-        
+        void CREATE(object obj);
     }
 }

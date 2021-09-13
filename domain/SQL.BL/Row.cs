@@ -4,10 +4,11 @@ using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
 
-namespace Sql.DCL
+namespace Sql.BL
 {
-    public interface ICreateRepository
+   public  class Row
     {
-        void CREATE(object obj);
+        public int Id { get; }
+        public object Value { get; }
     }
 }

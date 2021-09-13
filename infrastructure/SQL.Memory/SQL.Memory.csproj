@@ -47,11 +47,10 @@
     <Compile Include="Properties\AssemblyInfo.cs" />
   </ItemGroup>
   <ItemGroup>
-    <ProjectReference Include="..\..\Sql\BL.csproj">
+    <ProjectReference Include="..\..\domain\SQL.BL\Sql.BL.csproj">
       <Project>{cbce7ba9-e78e-4f73-b8e4-a31d9033dd03}</Project>
-      <Name>BL</Name>
+      <Name>Sql.BL</Name>
     </ProjectReference>
   </ItemGroup>
-  <ItemGroup />
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
 </Project>

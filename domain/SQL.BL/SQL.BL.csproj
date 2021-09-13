@@ -7,8 +7,8 @@
     <ProjectGuid>{CBCE7BA9-E78E-4F73-B8E4-A31D9033DD03}</ProjectGuid>
     <OutputType>Library</OutputType>
     <AppDesignerFolder>Properties</AppDesignerFolder>
-    <RootNamespace>Sql</RootNamespace>
-    <AssemblyName>Sql</AssemblyName>
+    <RootNamespace>Sql.BL</RootNamespace>
+    <AssemblyName>Sql.BL</AssemblyName>
     <TargetFrameworkVersion>v4.8</TargetFrameworkVersion>
     <FileAlignment>512</FileAlignment>
     <Deterministic>true</Deterministic>

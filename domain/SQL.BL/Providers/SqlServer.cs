@@ -4,11 +4,9 @@ using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
 
-namespace Sql
+namespace Sql.BL.Providers
 {
-   public  class Row
+   public class SqlServer : SqlItem
     {
-        public int Id { get; }
-        public object Value { get; }
     }
 }

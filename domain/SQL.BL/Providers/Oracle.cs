@@ -4,9 +4,9 @@ using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
 
-namespace Sql.Providers
+namespace Sql.BL.Providers
 {
-   public class SqlServer :Item
+   public class  Oracle: SqlItem
     {
     }
 }
