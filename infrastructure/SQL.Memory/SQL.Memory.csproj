@@ -41,6 +41,14 @@
     <Reference Include="System.Xml" />
   </ItemGroup>
   <ItemGroup>
+    <Compile Include="Admin\EF\DataBase.cs" />
+    <Compile Include="Admin\EF\DbConnection.cs" />
+    <Compile Include="Admin\EF\DbContext.cs" />
+    <Compile Include="Admin\EF\Entites.cs" />
+    <Compile Include="Admin\EF\IDbCommand.cs" />
+    <Compile Include="Admin\EF\IDbConnection.cs" />
+    <Compile Include="Admin\EF\InternalContext.cs" />
+    <Compile Include="Context\Context.cs" />
     <Compile Include="DCL\GrantRepository.cs" />
     <Compile Include="DDL\CreateRepository.cs" />
     <Compile Include="DML\SelectRepository.cs" />
@@ -52,5 +60,6 @@
       <Name>Sql.BL</Name>
     </ProjectReference>
   </ItemGroup>
+  <ItemGroup />
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
 </Project>

@@ -6,7 +6,7 @@ using System.Threading.Tasks;
 
 namespace Sql.BL.Providers
 {
-   public class  Oracle: SqlItem
+   public class  Oracle
     {
     }
 }

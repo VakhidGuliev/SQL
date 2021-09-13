@@ -3,10 +3,12 @@ using System.Collections.Generic;
 using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
+using SQL.Memory.Admin.EF;
 
-namespace Sql.BL.Providers
+namespace SQL.Memory.Context
 {
-   public class SqlServer 
-    {
-    }
+  public  class Context :DbContext
+  {
+     
+  }
 }

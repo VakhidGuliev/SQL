@@ -4,9 +4,11 @@ using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
 
-namespace Sql.BL.Providers
+namespace SQL.Memory.Admin.EF
 {
-   public class SqlServer 
+    public partial class Entites : DbContext
     {
+
+
     }
 }

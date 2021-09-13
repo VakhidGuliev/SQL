@@ -4,9 +4,10 @@ using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
 
-namespace Sql.BL.Providers
+namespace Sql.BL.Admin
 {
-   public class SqlServer 
+  public  class Role
     {
+
     }
 }
