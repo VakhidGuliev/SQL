@@ -9,6 +9,9 @@ namespace SQL.Memory.Context
 {
   public  class Context :DbContext
   {
-     
+      public Context()
+      {
+          
+      }
   }
 }
